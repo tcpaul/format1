@@ -13,8 +13,8 @@
         android:id="@+id/penta"
         android:src="@drawable/penta2"
         android:scaleType="fitCenter"
-        android:layout_height="700px"
-        android:layout_width="700px"/>
+        android:layout_height="700dp"
+        android:layout_width="700dp"/>
 
     <TextView
         android:layout_width="wrap_content"
