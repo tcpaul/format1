@@ -22,10 +22,10 @@ public class DisplayTest extends AppCompatActivity {
         setContentView(R.layout.activity_display_test);
 
         Intent intent = getIntent();
-        String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+       // String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         TextView textView2 = new TextView(this);
         textView2.setTextSize(40);
-        textView2.setText(message);
+       // textView2.setText(message);
 
       //  ViewGroup layout = (ViewGroup) findViewById(R.id.activity_display_message);
 

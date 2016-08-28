@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private Bitmap bitmap;
 
 */
-    public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+   // public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,5 +38,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
         // Do something in response to button
     }
+    public void info(View view2) {
 
+        Intent intent = new Intent(this, FullscreenActivity.class);
+
+        startActivity(intent);
+
+    }
 }
